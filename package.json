@@ -1,0 +1,45 @@
+{
+  "name": "snippets",
+  "contributes": {
+    "snippets": [
+      {
+        "language": [
+          "all"
+        ],
+        "path": "./src/common.json"
+      },
+      {
+        "language": [
+          "astro",
+          "html"
+        ],
+        "path": "./src/html.json"
+      },
+      {
+        "language": [
+          "css"
+        ],
+        "path": "./src/css.json"
+      },
+      {
+        "language": [
+          "astro",
+          "javascript",
+          "javascriptreact",
+          "typescript",
+          "typescriptreact",
+          "svelte",
+          "vue"
+        ],
+        "path": "./src/javascript.json"
+      },
+      {
+        "language": [
+          "javascriptreact",
+          "typescriptreact"
+        ],
+        "path": "./src/react.json"
+      }
+    ]
+  }
+}
